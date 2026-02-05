@@ -2,7 +2,7 @@
 // 20/100*100
 
 const getTax = (amount, taxRate) => amount * taxRate / 100;
-const add = (p, q) => p + q;
+// const add = (p, q) => p + q;
 
 // single parameter 
 const getSquare = (x) => x * x;
@@ -22,3 +22,6 @@ const firstElement = nums => nums[0];
     
 // })
 
+function add(a, b){
+    return a + b;
+}
